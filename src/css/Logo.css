@@ -1,0 +1,18 @@
+.line {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 0;
+    background-color: black;
+    transition: width 0.3s ease;
+    
+}
+
+.logo:hover .line {
+    width: 100%;
+}
+.logo{
+    cursor: pointer;
+}
